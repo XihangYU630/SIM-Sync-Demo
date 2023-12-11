@@ -1,7 +1,8 @@
 # Interactive SIM-Sync
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/13hYAlxOaywlPRbwMc5NLIQFd351Fowt9)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13hYAlxOaywlPRbwMc5NLIQFd351Fowt9#scrollTo=5aqrxKpKBhsb)
 
+Thanks for [Guoyuan Li](https://github.com/GuoyuanLi123) for setting up the colab.
 
 This repository contains a Python implementation of SIM-Sync: From Certifiably Optimal Synchronization over the 3D Similarity Group to Scene Reconstruction with Learned Depth, as described in the paper:
 
