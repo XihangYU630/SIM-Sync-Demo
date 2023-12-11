@@ -1,14 +1,12 @@
-# \[EECS 442 Project\] SIM-Sync-Mono (Part 1: Interactive SIM-Sync)
+# Interactive SIM-Sync
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sE0VmWCuL6HUad3yXHEZoCvJKzAvINpz?authuser=1#scrollTo=_p7km19VLzx3)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/13hYAlxOaywlPRbwMc5NLIQFd351Fowt9/view?usp=sharing)
 
-This repository contains a Python implementation of Joint Depth Estimation and Certifiably Optimal Synchronization Using Learned Module, as described in the paper:
+This repository contains a Python implementation of SIM-Sync: From Certifiably Optimal Synchronization over the 3D Similarity Group to Scene Reconstruction with Learned Depth, as described in the paper:
 
-`Xihang Yu, Yuchen Zhou, Guoyuan Li. SIM-Sync-Mono: Joint Depth Estimation and Certifiably Optimal Synchronization Using Learned Module. EECS 442 Fall 2023`
+###  [Paper](https://arxiv.org/abs/2309.05184)
 
-###  [Paper](https://arxiv.org/pdf/2012.05901.pdf) | [Video](https://www.youtube.com) | [Colab](https://colab.research.google.com/drive/1sE0VmWCuL6HUad3yXHEZoCvJKzAvINpz?authuser=1#scrollTo=_p7km19VLzx3)
-
-We introduce an innovative approach for estimating camera trajectories and 3D scene structures from multiview image keypoints by utilizing a pretrained depth prediction network that efficiently separates camera pose estimation and depth fine-tuning and a SIM-Sync solver to optimally solve the structured problem of camera trajectory estimation. The approach is validated through experiments on the TUM dataset.
+We introduce an noval approach for estimating camera trajectories and 3D scene structures from multiview image keypoints by utilizing a pretrained depth prediction network. The approach is validated through experiments on the TUM dataset.
 
 ![bundle_adjustment](https://drive.google.com/uc?export=view&id=10VHFFIzCttl6t5LkRXRZZ0uXv3dI9G1D)
 
@@ -24,7 +22,7 @@ Please refer to the colab notebook for how to run the demo.
 ## Folder Structure
 
 ```bash
-SIM-Synb-Mono/
+SIM-Sync/
     utils/
     TEASER-plusplus/
     SimSyncRegularized.py
@@ -39,10 +37,11 @@ SIM-Synb-Mono/
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```BibTeX
-@inproceedings{SIM-Sync-Mono,
- title={SIM-Sync-Mono: Joint Depth Estimation and Certifiably Optimal Synchronization Using Learned Module},
- author={Xihang Yu, Yuchen Zhou, Guoyuan Li},
- year={2023},
+@article{yu2023sim,
+  title={SIM-Sync: From Certifiably Optimal Synchronization over the 3D Similarity Group to Scene Reconstruction with Learned Depth},
+  author={Yu, Xihang and Yang, Heng},
+  journal={arXiv preprint arXiv:2309.05184},
+  year={2023}
 }
 ```
 
